@@ -1,4 +1,4 @@
-World Rank,Institution,Location,National Rank,Quality of Education,Alumni Employment,Quality of Faculty,Research Output,Quality Publications,Influence,Citations,Score
+World Rank,Institution,Location,National Rank,QualityofEducation,Alumni Employment,QualityofFaculty,Research Output,Quality Publications,Influence,Citations,Score
 1,Harvard University,United States of America,1,2,1,1,1,1,1,1,100
 2,Stanford University,United States of America,2,10,3,2,10,4,3,2,96.7
 3,Massachusetts Institute of Technology,United States of America,3,3,11,3,30,15,2,6,95.1
