@@ -1,0 +1,16 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A Wilkinson Dot Plot",
+  "height": 200,
+  "data": {
+    "url": "https://raw.githubusercontent.com/utkarshMonash/FIT3179_asgn2/main/files/data/university_datasets_top10.csv"
+  },
+  "mark": {
+  	"type": "circle",
+  	"opacity": 1
+  },
+  "encoding": {
+    "y": {"field": "Institution", "type": "ordinal"},
+    "x": {"field": "QualityofFaculty", "type": "ordinal", "title": "Quality Of Faculty"}
+  }
+}
