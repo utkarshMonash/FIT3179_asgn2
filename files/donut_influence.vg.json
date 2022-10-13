@@ -1,1 +1,16 @@
-
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Top 10's Influence",
+  "data": {
+    "url": "https://raw.githubusercontent.com/utkarshMonash/FIT3179_asgn2/main/files/data/university_datasets_top10.csv"
+  },
+  "mark": {"type": "arc", "innerRadius": 50},
+  "encoding": {
+    "theta": {"field": "Influence", "type": "quantitative"},
+    "color": {"field": "Institution", "type": "nominal"},
+    "tooltip": [
+      {"field": "Institution", "type": "nominal"},
+      {"field": "Influence", "type": "quantitative"}
+    ]
+  }
+}
