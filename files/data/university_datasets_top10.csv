@@ -1,0 +1,11 @@
+World Rank,Institution,Location,National Rank,Quality of Education,Alumni Employment,Quality of Faculty,Research Output,Quality Publications,Influence,Citations,Score
+1,Harvard University,United States of America,1,2,1,1,1,1,1,1,100
+2,Stanford University,United States of America,2,10,3,2,10,4,3,2,96.7
+3,Massachusetts Institute of Technology,United States of America,3,3,11,3,30,15,2,6,95.1
+4,University of Cambridge,United Kingdom,1,5,19,6,12,8,6,19,94
+5,University of Oxford,United Kingdom,2,9,25,10,9,5,7,4,93.2
+6,"University of California, Berkeley",United States of America,4,7,52,5,18,12,4,8,92.5
+7,Princeton University,United States of America,5,4,15,4,146,99,28,27,91.9
+8,Columbia University,United States of America,6,16,13,8,20,14,10,10,91.4
+9,California Institute of Technology,United States of America,7,1,200,7,127,81,13,31,91
+10,University of Chicago,United States of America,8,13,22,9,39,22,18,10,90.6
