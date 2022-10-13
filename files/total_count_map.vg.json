@@ -26,8 +26,7 @@
       "color": {
         "field": "Total Count",
         "type": "quantitative",
-        "scale": {"type": "threshold",
-                  "domain": [1,10,20,60,100]
+        "scale": {"type": "log"
                  }
       },
       "tooltip": [
