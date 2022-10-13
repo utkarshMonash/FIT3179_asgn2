@@ -11,6 +11,10 @@
   },
   "encoding": {
     "y": {"field": "Institution", "type": "ordinal"},
-    "x": {"field": "QualityofFaculty", "type": "ordinal", "title": "Quality Of Faculty"}
+    "x": {"field": "QualityofFaculty", "type": "quantitative", "title": "Quality Of Faculty"},
+    "tooltip": [
+      {"field": "Institution", "type": "ordinal"},
+      {"field": "QualityofFaculty", "type": "quantitative"}
+    ]
   }
 }
