@@ -1,29 +1,30 @@
 {
-"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"width": 500,
-"height": 400,
-"title": "COVID-19 Cases per Country (13 Oct 2020)",
-"data": {
-"url": ""
-},
-"mark": "circle",
-"encoding": {
-"x": {
-"field": "Confirmed",
-"type": "quantitative",
-"title": "Confirmed Cases"
-},
-"y": {
-"field": "Deaths",
-"type": "quantitative"
-},
-"color": {
-"field": "Continent",
-"type": "nominal"
-},
-"size": {
-"field": "Population",
-"type": "quantitative"
-}
-}
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 400,
+  "title": "Research Output Vs Quality Publications",
+  "data": {
+    "url": "https://raw.githubusercontent.com/utkarshMonash/FIT3179_asgn2/main/files/data/eighteen_nineteen_university_datasets.csv"
+  },
+  "mark": "circle",
+  "encoding": {
+    "x": {
+      "field": "Quality Publications",
+      "type": "quantitative",
+      "axis": {"tickCount": 7}
+    },
+    "y": {
+      "field": "Research Output",
+      "type": "quantitative",
+      "axis": {"tickCount": 6}
+    },
+    "color": {
+      "field": "Location",
+      "type": "nominal"
+    },
+    "tooltip": [
+      {"field": "Quality Publications", "type": "quantitative"},
+      {"field": "Research Output", "type": "quantitative"}
+    ]
+  }
 }
