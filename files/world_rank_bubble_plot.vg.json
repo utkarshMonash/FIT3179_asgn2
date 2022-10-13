@@ -18,10 +18,6 @@
       "type": "quantitative",
       "axis": {"tickCount": 6}
     },
-    "color": {
-      "field": "Location",
-      "type": "nominal"
-    },
     "tooltip": [
       {"field": "Quality Publications", "type": "quantitative"},
       {"field": "Research Output", "type": "quantitative"}
