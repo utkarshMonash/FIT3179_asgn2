@@ -10,15 +10,24 @@
     "x": {"field": "Year", "type": "ordinal"},
     "y": {"field": "World Ranking", "type": "ordinal"},
     "color": {
-      "field": "Institution", "type": "nominal",
+      "field": "Institution",
+      "type": "nominal",
       "scale": {
-        "domain": ["Harvard University", "Massachusetts Institute of Technology", "Stanford University", "University of Cambridge", "California Institute of Technology", "University of Oxford"],
-        "range": ["black", "purple", "red", "#0C71AB", "pink", "yellow"],
-        "legend": {"direction": "horizontal", "orient": "bottom"}
-      }
+        "domain": [
+          "Harvard University",
+          "Massachusetts Institute of Technology",
+          "Stanford University",
+          "University of Cambridge",
+          "California Institute of Technology",
+          "University of Oxford"
+        ],
+        "range": ["black", "purple", "red", "#0C71AB", "pink", "yellow"]
+      },
+      "legend": {"direction": "horizontal", "orient": "bottom"}
     },
     "tooltip": [
-          {"field": "Institution", "type": "nominal"},
-          {"field": "World Ranking", "type": "quantitative"}]
+      {"field": "Institution", "type": "nominal"},
+      {"field": "World Ranking", "type": "quantitative"}
+    ]
   }
 }
