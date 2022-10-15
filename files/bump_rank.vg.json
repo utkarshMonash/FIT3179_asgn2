@@ -1,0 +1,23 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 400,
+  "width": 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/utkarshMonash/FIT3179_asgn2/main/files/data/rankings_years.csv"
+  },
+  "mark": {"type": "line", "orient": "vertical", "point": true},
+  "encoding": {
+    "x": {"field": "Year", "type": "ordinal"},
+    "y": {"field": "World Ranking", "type": "ordinal"},
+    "color": {
+      "field": "Institution", "type": "nominal",
+      "scale": {
+        "domain": ["Harvard University", "Massachusetts Institute of Technology", "Stanford University", "University of Cambridge", "California Institute of Technology", "University of Oxford"],
+        "range": ["black", "purple", "red", "#0C71AB", "pink", "yellow"]
+      }
+    },
+    "tooltip": [
+          {"field": "Institution", "type": "nominal"},
+          {"field": "World Ranking", "type": "quantitative"}]
+  }
+}
