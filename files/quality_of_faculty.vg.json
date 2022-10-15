@@ -17,7 +17,7 @@
           "field": "Institution",
           "type": "ordinal"
         },
-        "color": {"value": "#E55451"},
+        "color": {"value": "#E55451"}
       }
     },
     {
