@@ -37,7 +37,7 @@
         "color": {"value": "#E55451"},
         "tooltip": [
           {"field": "Institution", "type": "nominal"},
-          {"field": "Quality Publications", "type": "quantitative"}]
+          {"field": "QualityofFaculty", "type": "quantitative"}]
       }
     }
   ]
