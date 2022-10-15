@@ -11,7 +11,7 @@
   },
   "encoding": {
     "y": {"field": "Institution", "type": "ordinal"},
-    "x": {"field": "QualityofEducation", "type": "quantitative", "title": "Quality Of Faculty"},
+    "x": {"field": "QualityofEducation", "type": "quantitative", "title": "Quality Of Education"},
     "tooltip": [
       {"field": "Institution", "type": "ordinal"},
       {"field": "QualityofEducation", "type": "quantitative"}
