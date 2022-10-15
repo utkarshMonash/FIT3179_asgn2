@@ -12,6 +12,7 @@
   "encoding": {
     "y": {"field": "Institution", "type": "ordinal"},
     "x": {"field": "QualityofEducation", "type": "quantitative", "title": "Quality Of Education"},
+    "color": {"value": "#db646f"},
     "tooltip": [
       {"field": "Institution", "type": "ordinal"},
       {"field": "QualityofEducation", "type": "quantitative"}
