@@ -1,6 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 400,
   "height": 300,
   "data": {
     "url": "https://raw.githubusercontent.com/utkarshMonash/FIT3179_asgn2/main/files/data/university_datasets_top10.csv"
