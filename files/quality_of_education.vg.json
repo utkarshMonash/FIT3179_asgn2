@@ -28,11 +28,13 @@
       "encoding": {
         "x": {
           "field": "QualityofEducation",
-          "type": "quantitative"
+          "type": "quantitative",
+          "title": "Quality of Education"
         },
         "y": {
           "field": "Institution",
-          "type": "ordinal"
+          "type": "ordinal",
+          "title": "Quality of Education"
         },
         "color": {"value": "#E55451"},
         "tooltip": [
