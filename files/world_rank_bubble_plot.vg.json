@@ -20,7 +20,8 @@
     },
     "tooltip": [
       {"field": "Quality Publications", "type": "quantitative"},
-      {"field": "Research Output", "type": "quantitative"}
+      {"field": "Research Output", "type": "quantitative"},
+      {"field": "Institution", "type": "nominal"}
     ]
   }
 }
