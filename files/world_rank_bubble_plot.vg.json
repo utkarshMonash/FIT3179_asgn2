@@ -19,9 +19,9 @@
       "axis": {"tickCount": 6}
     },
     "tooltip": [
+      {"field": "Institution", "type": "nominal"},
       {"field": "Quality Publications", "type": "quantitative"},
-      {"field": "Research Output", "type": "quantitative"},
-      {"field": "Institution", "type": "nominal"}
+      {"field": "Research Output", "type": "quantitative"}
     ]
   }
 }
