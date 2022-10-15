@@ -1,1 +1,44 @@
-
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/utkarshMonash/FIT3179_asgn2/main/files/data/university_datasets_top10.csv"
+  },
+  "layer": [
+    {
+      "mark": {"type": "bar", "height": 4},
+      "encoding": {
+        "x": {
+          "field": "QualityofFaculty",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Institution",
+          "type": "ordinal"
+        },
+        "color": {"value": "#E55451"}
+      }
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "size": 100,
+        "opacity": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "QualityofFaculty",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Institution",
+          "type": "ordinal"
+        },
+        "color": {"value": "#E55451"},
+        "tooltip": [
+          {"field": "Institution", "type": "nominal"},
+          {"field": "Quality Publications", "type": "quantitative"}]
+      }
+    }
+  ]
+}
