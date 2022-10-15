@@ -2,7 +2,6 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 500,
   "height": 400,
-  "title": "Research Output Vs Quality Publications",
   "data": {
     "url": "https://raw.githubusercontent.com/utkarshMonash/FIT3179_asgn2/main/files/data/eighteen_nineteen_university_datasets.csv"
   },
