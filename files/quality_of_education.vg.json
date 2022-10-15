@@ -33,8 +33,7 @@
         },
         "y": {
           "field": "Institution",
-          "type": "ordinal",
-          "title": "Quality of Education"
+          "type": "ordinal"
         },
         "color": {"value": "#E55451"},
         "tooltip": [
