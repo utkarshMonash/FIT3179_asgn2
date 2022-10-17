@@ -23,7 +23,7 @@
         ],
         "range": ["black", "purple", "red", "#0C71AB", "pink", "yellow"]
       },
-      "legend": {"direction": "horizontal", "orient": "bottom"}
+      "legend": {"direction": "vertical", "orient": "bottom"}
     },
     "tooltip": [
       {"field": "Institution", "type": "nominal"},
