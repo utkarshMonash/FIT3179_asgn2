@@ -121,7 +121,8 @@
           "type": "quantitative",
           "title": "Count"
         },
-        "y": {"field": "properties.ADM0_A3", "type": "nominal", "title": null}
+        "y": {"field": "properties.ADM0_A3", "type": "nominal", "title": null},
+        "color":{"field": "properties.ADM0_A3", "type": "nominal"}
       }
     }
   ],
